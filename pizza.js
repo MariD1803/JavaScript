@@ -28,7 +28,17 @@ pizzas.push(mozzarella, napolitana, brocoli, jamon, provolone, pepperoni);
 
 const pizzaImp = pizzas.filter( (e) => e.id%2 != 0)
 
-console.log(`A) Las pizza que tienen un ID impar son: ${pizzaImp.map( e => e.nombre )}`)
+const getNombreyId = (nombre, id) => {
+    console.log(`Nombre: ${nombre} y el ID es: ${id}`)
+}
+
+console.log(`A) Las pizza que tienen un ID impar son: `)
+
+for (i=0; i< pizzaImp.length; i++) {
+    getNombreyId(pizzaImp[i].nombre, pizzaImp[i].id)
+}
+
+console.log("                                        ")
 
 //Problema B- Hay alguna pizza con precio menor a $600//
 
@@ -41,6 +51,8 @@ if (pizzaBarata == false) {
 }
 
 console.log(`B) Hay alguna pizza menor a $600: ${pizzaCon}`)
+
+console.log("                                        ")
 
 //Problema C - El nombre de cada pizza y su precio y //Problema D -  Todos los ingredientes de cada pizza (En cada iteración imprimir los ingredientes de la pizza actual)////
 console.log("C y D) -----------------------Menú------------------------------")
