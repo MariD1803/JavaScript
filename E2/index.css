@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: "cursiva";
+    src: url(./fonts/OleoScriptSwashCaps-Bold.ttf);    
+}
+
+@font-face {
+    font-family: "inspiration";
+    src: url(./fonts/Inspiration-Regular.ttf);    
+}
+body{
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: url(./img/fondopagina2.png);
+    padding-block-start: 5%;
+    padding-block-end: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+ul {
+    
+    width: 496px;
+    padding: 0%;
+    margin: 0%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fondo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 470px;
+    border-radius: 5px;
+    padding: 3%;
+    border:  rgb(129, 6, 6) solid;
+
+}
+
+.li {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3%;
+    border:  rgb(129, 6, 6) solid;
+    width: 100%;
+}
+
+.input:focus{
+    -webkit-box-shadow: 1px 1px 30px 3px  rgb(129, 6, 6);
+    -moz-box-shadow: 1px 1px 30px 3px  rgb(129, 6, 6);
+    box-shadow: 1px 1px 30px 3px  rgb(129, 6, 6);
+}
+
+.Titulo {
+    text-align: center;
+    font-size: 56px;
+    font-family: "cursiva";
+    margin: 0%;
+    color: rgb(129, 6, 6);
+
+}
+
+#input {
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+button {
+    background-image: linear-gradient(to right, rgb(129, 6, 6), rgb(214, 214, 57));
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
