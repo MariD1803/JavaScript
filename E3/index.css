@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: "cursiva";
+    src: url(./fonts/OleoScriptSwashCaps-Bold.ttf);    
+}
+
+@font-face {
+    font-family: "inspiration";
+    src: url(./fonts/Inspiration-Regular.ttf);    
+}
+body{
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: url(./img/fondopagina2.png);
+    padding-block-start: 5%;
+    padding-block-end: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+button {
+    background-image: linear-gradient(to right, rgb(129, 6, 6), rgb(214, 214, 57));
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+h2 {
+    margin-bottom: 3px;
+}
+
+
+.fondo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    border-radius: 5px;
+    padding: 3%;
+    border:  rgb(129, 6, 6) solid;
+
+}
+
+.ul {
+    
+    width: 34%;
+    padding: 3%;
+    margin: 0%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3%;
+    border:  rgb(129, 6, 6) solid;
+    width: 100%;
+    gap: 30px;
+}
+
+.input:focus{
+    -webkit-box-shadow: 1px 1px 30px 3px  rgb(129, 6, 6);
+    -moz-box-shadow: 1px 1px 30px 3px  rgb(129, 6, 6);
+    box-shadow: 1px 1px 30px 3px  rgb(129, 6, 6);
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.Titulo {
+    text-align: center;
+    font-size: 56px;
+    font-family: "cursiva";
+    margin: 0%;
+    color: rgb(129, 6, 6);
+
+}
+
+#input {
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#div_titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#div_ingredientes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    align-items: flex-start;
+
+}
+
+.li_ing {
+    list-style: none;
+}
+
+#ul_ing {
+    padding: 0;
+}
+
